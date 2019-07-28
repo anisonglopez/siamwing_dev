@@ -4,7 +4,7 @@ if (isset($_POST['com_name'])) {
     //echo $pdo;
     require '../../00_config/connect.php';//db connect
  $TABLE_NAME = "00_company";
- $com_id = $_POST['com_name'];
+ $com_name = $_POST['com_name'];
  $com_address = $_POST['com_address'];
  $com_remark = $_POST['com_remark'];
 
@@ -13,14 +13,13 @@ if (isset($_POST['com_name'])) {
  $date_today = date('Y-m-d H:i:s');
  try {
     $datalist =[
-      "dep_id"        =>  $dep_id,
-      "dep_name" => $dep_name,
-      "dep_note" => $dep_note,
-      "dep_active" =>  $dep_active,
-      "dep_created_by" =>  $user_update,
-      "dep_created_date" =>  $date_today,
-      "dep_updated_by" =>  $user_update,
-      "dep_updated_date" =>  $date_today
+      "com_name"        =>  $com_name,
+      "com_address" => $com_address,
+      "com_remark" => $com_remark,
+      "com_created_by" =>  $user_update,
+      "com_created_date" =>  $date_today,
+      "com_updated_by" =>  $user_update,
+      "com_updated_date" =>  $date_today
     ];
     $sql = sprintf(
       "INSERT INTO %s (%s) values (%s)",
