@@ -7,7 +7,7 @@ if (isset($_POST['_id'])) {
 
  $date_today = date('Y-m-d H:i:s');
  try {
-    $dep_id = $_POST['_id'];
+    $com_id = $_POST['_id'];
     $datalist =[
         "com_id"        =>   $com_id,
         "com_updated_by" =>  $user_update,
