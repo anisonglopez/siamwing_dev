@@ -124,6 +124,7 @@ Notification
     <div class="bg-white py-2 collapse-inner rounded">
       <h6 class="collapse-header">ข้อมูลตั้งต้นระบบ:</h6>
       <a class="collapse-item <?=$ap == 'dep' || ($ap == 'dep_create')? 'active':'';?>" href="../department/dep.php">Department</a>
+      <a class="collapse-item" href="../company/company.php">Ice Page</a>
       <div class="collapse-divider"></div>
     </div>
   </div>
