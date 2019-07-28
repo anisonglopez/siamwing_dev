@@ -15,7 +15,7 @@ require '../layout/header.php';
           สร้างข้อมูลบริษัท
       </div>
       <div class="col-md-6 text-right">
-      <button  type="reset" class="btn btn-facebook" onclick="location.href='Company.php';">Company</button>
+      <button  type="reset" class="btn btn-facebook" onclick="location.href='Company.php';">Back</button>
         <button type="submit" class="btn btn-success" >Save</button>
       </div>
     </div>        
