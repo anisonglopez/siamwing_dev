@@ -1,7 +1,7 @@
 <?php
 $ServerName =  $_SERVER['HTTP_HOST'];
 
-if($ServerName == 'localhost:82'){
+if($ServerName == 'localhost'){
     //Enviroment Dev
     $serverName_1 = "localhost";
     $userName_1 = "root";
