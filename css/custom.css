@@ -1,0 +1,47 @@
+#overlay {   
+    position: absolute;  
+    top: 0px;   
+    left: 0px;  
+    background: rgb(226, 222, 222);   
+    width: 100%;   
+    height: 100%;   
+    opacity: .75;   
+    filter: alpha(opacity=75);   
+    -moz-opacity: .75;  
+    z-index: 999;  
+    /* background: #fff url(http://i.imgur.com/KUJoe.gif) 50% 50% no-repeat; */
+}
+.sidebar #viewless {
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  .sidebar-dark #viewless {
+    background-color: rgba(255,255,255,.2);
+}
+@media (min-width: 1200px){
+.container-fullwidth {
+    max-width: 1140px;
+}
+}
+body {
+    font-family: 'Prompt', sans-serif;
+    color: #454750;
+  }
+  table.dataTable tbody tr.selected {
+    background-color: rgb(184, 245, 211);
+}
+.form-control {
+    color: #262629;
+}
+.table {
+    color: #2c2d38;
+}
+.model_concern{
+    width: 1202.2px !important;
+}
+.badge {
+    font-size: 90%;
+}
