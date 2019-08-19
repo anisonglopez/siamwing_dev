@@ -72,8 +72,8 @@ require '../layout/header.php';
     var msg_txt = document.getElementById("msg_txt");
     event.preventDefault();
     var form = $(this);
-//   console.log( $( this ).serialize() );
-  $.ajax({
+    console.log( $( this ).serialize() );
+    $.ajax({
            type: "POST",
            url: "ajax/dep_create.php",
            data: form.serialize(), // serializes the form's elements.
