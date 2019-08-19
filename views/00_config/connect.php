@@ -1,12 +1,12 @@
 <?php
 $ServerName =  $_SERVER['HTTP_HOST'];
 
-if($ServerName == 'localhost:82'){
+if($ServerName == 'localhost'){
     //Enviroment Dev
     $serverName_1 = "localhost";
     $userName_1 = "root";
     $userPassword_1 = "";
-    $dbName_1 = "enc";
+    $dbName_1 = "ecn";
     // MAIL CONFIGURATION
 define("MAIL_USR", "anisongduck@gmail.com");
 define("MAIL_PWD", "Anisong12");
