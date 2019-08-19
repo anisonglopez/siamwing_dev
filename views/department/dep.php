@@ -37,7 +37,7 @@ catch (PDOException $e) {
           <tr>
             <th>Dept. Code</th>
             <th>ชื่อแผนกlasdlasd</th>
-            <th>Note</th>
+            <th>Noteกกก</th>
             <th>Status</th>
             <th class="text-center">Action</th>
           </tr>
