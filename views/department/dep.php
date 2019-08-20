@@ -20,7 +20,7 @@ catch (PDOException $e) {
   <div class="card-header">
     <div class="row">
       <div class="col-md-6 m-0 font-weight-bold text-primary">
-          จัดการข้อมูลลูกจ้าง
+          จัดการข้อมูลเจ้าหน้าที่
       </div>
       <div class="col-md-6 text-right">
         <button class="btn btn-success" onclick="location.href='dep_create.php';">Create new</button>
